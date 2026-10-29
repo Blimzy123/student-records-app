@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import './App.css';
 
 // Address of our Express backend.
-const API_URL = 'http://localhost:5000/api/students';
+const API_URL = '/api/students';
 
 function App() {
   // Store the students retrieved from the database.
