@@ -1,0 +1,11 @@
+# Dependencies
+node_modules/
+server/node_modules/
+client/node_modules/
+
+# Environment variables and secrets
+server/config/.env
+.env
+
+# Production build output
+client/dist/
